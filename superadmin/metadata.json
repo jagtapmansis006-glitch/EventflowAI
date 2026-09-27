@@ -1,0 +1,6 @@
+{
+  "name": "EventFlow AI",
+  "description": "Real-time AI-powered crowd telemetry, event monitoring, predictive analytics, and simulation command center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

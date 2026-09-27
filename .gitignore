@@ -1,0 +1,17 @@
+node_modules/
+.env
+dist/
+build/
+__pycache__/
+*.mp4
+*.pt
+venv/
+
+*.avi
+runs/
+**/runs/
+
+*.avi
+*.mp4
+runs/
+**/runs/

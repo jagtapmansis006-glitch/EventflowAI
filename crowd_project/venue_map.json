@@ -1,0 +1,200 @@
+{
+  "venue_name": "Stadium Ground",
+  "total_capacity": 50000,
+  "venue_area_sqm": 12000,
+  "gates": [
+    {
+      "gate_id": "GATE 1 (Main Entry)",
+      "gate_type": "entry",
+      "camera_id": "CAM 1",
+      "distance_to_main_stage_meters": 48
+    },
+    {
+      "gate_id": "GATE 2 (Entry)",
+      "gate_type": "entry",
+      "camera_id": "CAM 2",
+      "distance_to_main_stage_meters": 52
+    },
+    {
+      "gate_id": "GATE 3 (Exit)",
+      "gate_type": "exit",
+      "camera_id": "CAM 6",
+      "distance_to_main_stage_meters": 70
+    },
+    {
+      "gate_id": "GATE 4 (Entry/Exit)",
+      "gate_type": "entry-exit",
+      "camera_id": "CAM 5",
+      "distance_to_main_stage_meters": 90
+    },
+    {
+      "gate_id": "GATE 5 (Exit)",
+      "gate_type": "exit",
+      "camera_id": "CAM 4",
+      "distance_to_main_stage_meters": 80
+    }
+  ],
+  "cameras": [
+    {
+      "camera_id": "CAM 1",
+      "location": "Gate 1 (Entry)",
+      "coverage_area": "Main Stage & Crowd"
+    },
+    {
+      "camera_id": "CAM 2",
+      "location": "Gate 2 (Entry)",
+      "coverage_area": "Stage Right & Crowd"
+    },
+    {
+      "camera_id": "CAM 3",
+      "location": "Left Corridor",
+      "coverage_area": "VIP Zone & Washrooms"
+    },
+    {
+      "camera_id": "CAM 4",
+      "location": "VIP Zone Entry",
+      "coverage_area": "VIP Area & Food Court"
+    },
+    {
+      "camera_id": "CAM 5",
+      "location": "Right Corridor",
+      "coverage_area": "Merchandise & Rest Area"
+    },
+    {
+      "camera_id": "CAM 6",
+      "location": "Gate 3 (Exit)",
+      "coverage_area": "Food Court & Main Exit"
+    }
+  ],
+  "zones": [
+    {
+      "zone_name": "Main Stage",
+      "area_sqm": 300
+    },
+    {
+      "zone_name": "General Admission (Standing)",
+      "area_sqm": 6500
+    },
+    {
+      "zone_name": "VIP Zone",
+      "area_sqm": 1000
+    },
+    {
+      "zone_name": "Food Court & Lounge",
+      "area_sqm": 1500
+    },
+    {
+      "zone_name": "Food Court",
+      "area_sqm": 1200
+    },
+    {
+      "zone_name": "Washrooms",
+      "area_sqm": 400
+    },
+    {
+      "zone_name": "Merchandise",
+      "area_sqm": 250
+    },
+    {
+      "zone_name": "First Aid",
+      "area_sqm": 300
+    },
+    {
+      "zone_name": "Rest Area",
+      "area_sqm": 600
+    },
+    {
+      "zone_name": "Backstage (Staff Only)",
+      "area_sqm": 800
+    },
+    {
+      "zone_name": "Control Room",
+      "area_sqm": 300
+    },
+    {
+      "zone_name": "Emergency Exit",
+      "area_sqm": 120
+    },
+    {
+      "zone_name": "Parking Area",
+      "area_sqm": 2000
+    }
+  ],
+  "distances": [
+    {
+      "from": "Gate 1",
+      "to": "Main Stage",
+      "distance_meters": 48
+    },
+    {
+      "from": "Gate 2",
+      "to": "Main Stage",
+      "distance_meters": 52
+    },
+    {
+      "from": "Gate 3",
+      "to": "Main Stage",
+      "distance_meters": 70
+    },
+    {
+      "from": "Gate 4",
+      "to": "Main Stage",
+      "distance_meters": 90
+    },
+    {
+      "from": "Gate 5",
+      "to": "Main Stage",
+      "distance_meters": 80
+    },
+    {
+      "from": "Gate 1",
+      "to": "Gate 3",
+      "distance_meters": 110
+    },
+    {
+      "from": "Gate 3",
+      "to": "Gate 4",
+      "distance_meters": 90
+    },
+    {
+      "from": "Gate 5",
+      "to": "Gate 3",
+      "distance_meters": 80
+    },
+    {
+      "from": "Gate 1",
+      "to": "CAM 3 / Left Corridor",
+      "distance_meters": 65
+    },
+    {
+      "from": "Gate 2",
+      "to": "CAM 5 / Right Corridor",
+      "distance_meters": 60
+    },
+    {
+      "from": "CAM 3",
+      "to": "CAM 4",
+      "distance_meters": 45
+    },
+    {
+      "from": "VIP Zone Corridor",
+      "to": "Food Court & Lounge",
+      "distance_meters": 40
+    },
+    {
+      "from": "Food Court & Lounge",
+      "to": "Backstage Corridor",
+      "distance_meters": 50
+    },
+    {
+      "from": "General Admission Central Path",
+      "to": "General Admission Rear",
+      "distance_meters": 110
+    },
+    {
+      "from": "General Admission Center",
+      "to": "Main Stage Front",
+      "distance_meters": 70
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "types": ["vite/client", "geojson"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/lib/*": ["./src/attendee/lib/*"],
+      "@/components/user/*": ["./src/attendee/components/user/*"],
+      "@/*": ["./src/*", "./*"],
+      "next/link": ["./src/attendee/shims/next/link.tsx"],
+      "next/navigation": ["./src/attendee/shims/next/navigation.ts"],
+      "next/font/google": ["./src/attendee/shims/next/font/google.ts"],
+      "next": ["./src/attendee/shims/next/index.ts"]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
+}

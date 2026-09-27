@@ -1,0 +1,6 @@
+{
+  "name": "EventFlow AI - Event Admin Live Operations",
+  "description": "Live crowd operations, AI predictive recommendations, interactive venue map, and voice-activated command center for Event Admins.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
