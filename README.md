@@ -1,4 +1,4 @@
-```markdown
+
 # ⚡ EventflowAI
 
 <p align="center">
@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </p>
 
----
+
 
 ## 📌 Overview
 
